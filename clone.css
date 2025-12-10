@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.upper {
+
+    width: 100%;
+    height: 535.2px;
+    background-image: url(bg\ uper\ \(1\).jpg);
+    /* background-image: linear-gradient(to bottom, black, grey); */
+}
+
+
+.navbar {
+    height: 80px;
+    background-color: rgba(38, 36, 36, 0.8);
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 25px;
+
+}
+
+
+.nav-logo {
+    height: 71.64px;
+    width: 176px;
+
+}
+
+#logo {
+    position: relative;
+    bottom: 6.5px;
+    height: 71.64px;
+    width: 176px;
+
+    background-size: cover;
+
+    background-image: url("logoN.png");
+}
+
+.border {
+    border: 1.3px solid transparent;
+}
+
+.border:hover {
+    border: 1.3px solid white;
+}
+
+.search {
+    display: flex;
+    margin-left: 19rem;
+    height: 40px;
+    width: 400px;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.search :hover {
+    border: 0.12rem solid rgb(83, 2, 2);
+}
+
+#inpt {
+    padding-left: 0.71rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#icon {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 18, 12);
+    border-radius: 50px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin-left: 5px;
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 0px;
+}
+
+.profile {
+    margin-left: 15px;
+    color: white;
+    background-size: cover;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.profile:hover {
+    border: 1.3px solid white;
+}
+
+.typo {
+    height: 20px;
+    width: 258.27;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 24px;
+    white-space: nowrap;
+    gap: 1rem;
+    margin-left: 19rem;
+}
+
+.preview {
+    height: 381.6px;
+    width: 672px;
+    margin-left: 48px;
+
+
+}
+
+#hding {
+    color: white;
+    font-size: larger;
+    margin-top: 17px;
+}
+
+#ti {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif font-optical-sizing;
+    font-size: 100px;
+    font-style: normal;
+    font-optical-sizing: auto;
+    width: 672px;
+    height: 120px;
+    color: whitesmoke;
+
+}
+
+#jankari {
+    display: flex;
+
+    margin-top: 12px;
+    width: 95px;
+    height: 25.6px;
+    justify-content: space-between;
+}
+
+#year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(103, 100, 100, 0.4);
+    align-items: center;
+    width: 43.99px;
+    height: 25.6px;
+
+    border-radius: 3.8px;
+    color: white;
+    font-weight: 700;
+}
+
+#kya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0.8px solid;
+    width: 43.99px;
+    height: 25.6px;
+    font-size: 60%;
+    border-radius: 3.8px;
+    font-weight: 700;
+    color: white;
+    /* padding: 2px 6px 2px 6px; */
+}
+
+#dis {
+    margin-top: 12px;
+    padding-top: 10px;
+    width: 576px;
+    height: 84px;
+    color: white;
+    font-weight: 50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bb {
+
+    width: 672px;
+    height: 48px;
+    ;
+    margin-top: 12px;
+    padding-top: 24px;
+    display: flex;
+
+
+}
+
+#pl {
+    display: flex;
+    align-items: center;
+    width: 145.35px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+    border-radius: 7%;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#pl:hover {
+    background-color: rgb(227, 224, 224);
+}
+
+#lis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    margin-right: 15px;
+    border-radius: 7%;
+    background-color: rgba(79, 77, 79, 0.5);
+    color: white;
+}
+
+#det {
+    display: flex;
+    align-items: center;
+    background-color: rgba(79, 77, 79, 0.5);
+    color: white;
+    width: 145.35px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 7%;
+    justify-content: center;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+}
+
+#Lhead {
+    width: 1520px;
+    height: 326px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 48px;
+    margin-bottom: 10px;
+}
+
+#trending {
+    margin-bottom: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.Lprev {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 23px;
+    overflow-x: auto;
+    padding-top: 4px;
+}
+
+.Lprev div {
+    width: 167px;
+    height: 230px;
+    border-radius: 7px;
+    /* ensures image covers the box */
+    background-position: center;
+
+    /* centers the image */
+    transition: transform 0.65s ease;
+
+    /* changes the mouse cursor to the “hand” icon when hoverings */
+    cursor: pointer;
+}
+
+.Lprev div:hover {
+    /* enlarge div */
+    transform: scale(1.03) translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+#Lhead2 {
+    width: 1520px;
+    height: 326px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 48px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#newmovie {
+
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.Lprev2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 23px;
+    overflow-x: auto;
+    padding-top: 4px;
+}
+
+.Lprev2 div {
+    width: 167px;
+    height: 230px;
+    border-radius: 7px;
+    /* ensures image covers the box */
+    background-position: center;
+
+    /* centers the image */
+    transition: transform 0.65s ease;
+
+    /* changes the mouse cursor to the “hand” icon when hoverings */
+    cursor: pointer;
+}
+
+.Lprev2 div:hover {
+    /* enlarge div */
+    transform: scale(1.03) translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+#Lhead3 {
+    width: 1520px;
+    height: 326px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 48px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.Lprev3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 23px;
+    overflow-x: auto;
+    padding-top: 4px;
+}
+
+.Lprev3 div {
+    width: 167px;
+    height: 230px;
+    border-radius: 7px;
+    /* ensures image covers the box */
+    background-position: center;
+
+    /* centers the image */
+    transition: transform 0.65s ease;
+
+    /* changes the mouse cursor to the “hand” icon when hoverings */
+    cursor: pointer;
+}
+
+.Lprev3 div:hover {
+    /* enlarge div */
+    transform: scale(1.03) translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+
+footer {
+    width: 100%;
+    height: 480px;
+    background-image: linear-gradient(rgb(18, 16, 16), rgb(26, 20, 20), rgb(27, 21, 21), rgb(29, 18, 18));
+}
+
+#footb {
+    margin-left: 48px;
+
+    display: flex;
+    height: 56px;
+    width: 251px;
+    background-color: #E50914;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-left: 20px;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+
+}
+
+#footpan {
+    height: 2.77rem;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: whitesmoke;
+
+}
+
+#footb:hover {
+    background-color: #ce0913;
+    cursor: pointer;
+}
+
+
+#ul1 a {
+    display: block;
+    margin-bottom: 0.85rem;
+}
+
+#ul2 a {
+    margin-bottom: 0.85rem;
+    display: block;
+}
+
+#ul3 a {
+    margin-bottom: 0.85rem;
+    display: block;
+}
+
+#ul4 a {
+    margin-bottom: 0.85rem;
+    display: block;
+}
+
+#foot-div {
+
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#que {
+    padding-top: 100px;
+    padding-left: 48px;
+
+    font-weight: 300;
+    color: rgb(236, 229, 229);
+}
