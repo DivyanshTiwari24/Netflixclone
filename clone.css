@@ -45,13 +45,10 @@
     border: 1.3px solid transparent;
 }
 
-.border:hover {
-    border: 1.3px solid white;
-}
 
 .search {
     display: flex;
-    margin-left: 19rem;
+    margin-left: 17rem;
     height: 40px;
     width: 400px;
     position: relative;
@@ -105,15 +102,21 @@
 }
 
 .typo {
-    height: 20px;
-    width: 258.27;
+
     display: flex;
+    height: 20px;
+    width: 350.27px;
     justify-content: space-between;
     color: white;
-    margin-left: 24px;
     white-space: nowrap;
-    gap: 1rem;
-    margin-left: 19rem;
+    gap: 1.5rem;
+
+    margin-left: 18rem;
+}
+
+.typo :hover {
+    cursor: pointer;
+    color: rgb(213, 220, 220);
 }
 
 .preview {
@@ -429,6 +432,10 @@ footer {
     cursor: pointer;
 }
 
+ul :hover {
+    cursor: pointer;
+    color: rgb(185, 187, 189);
+}
 
 #ul1 a {
     display: block;
