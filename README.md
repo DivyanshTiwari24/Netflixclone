@@ -1,1 +1,1 @@
-https://divyanshtiwari24.github.io/Netflixclone/
+https://divyanshtiwari24.github.io/Netflixclone/ 
